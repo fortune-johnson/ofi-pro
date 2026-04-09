@@ -3,6 +3,7 @@ Django>=4.2.13,<5.0
 django-crispy-forms>=2.1
 crispy-bootstrap4>=2024.1
 
+aiohttp>=3.10.0
 # HTTP & Async
 anyio>=4.5.0
 httpx>=0.28.0
