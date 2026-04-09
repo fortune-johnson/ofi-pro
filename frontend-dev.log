@@ -1,0 +1,18 @@
+
+> dev
+> npm --prefix ofi-pro-frontend run dev
+
+
+> ofi-pro-frontend@0.1.0 dev
+> cmd /c scripts\run-next.cmd dev
+
+▲ Next.js 16.2.1 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.180.188:3000
+- Environments: .env.local
+✓ Ready in 2.1s
+
+○ Compiling /tools/quant ...
+ GET / 200 in 633ms (next.js: 34ms, application-code: 598ms)
+○ Compiling /api/subscription ...
+ GET /api/subscription?uid=2q1xJnZzFDU6OP3o2kPVxbxXfK62&email=fortunejohnson16%40gmail.com 200 in 4.9s (next.js: 4.7s, application-code: 152ms)

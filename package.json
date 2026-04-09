@@ -1,0 +1,11 @@
+{
+  "name": "ofi-pro-workspace",
+  "private": true,
+  "workspaces": [
+    "ofi-pro-frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix ofi-pro-frontend run dev",
+    "build": "npm --prefix ofi-pro-frontend run build"
+  }
+}
