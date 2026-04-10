@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cmd /c scripts\\run-next.cmd dev",
-    "build": "cmd /c scripts\\run-next.cmd build",
-    "start": "cmd /c scripts\\run-next.cmd start",
-    "lint": "node \".\\node_modules\\eslint\\bin\\eslint.js\" ."
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
