@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',           // This enables static export (best for Vercel free tier)
-  trailingSlash: true,        // Recommended for static export
+  // output: 'export',        // ← Comment out or remove this line
+  trailingSlash: true,
   images: {
-    unoptimized: true,        // Required when using static export
+    unoptimized: true,
   },
-  // You can add more config later if needed
 };
 
 export default nextConfig;
